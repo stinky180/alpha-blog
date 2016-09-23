@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <title>About WheelsDirty!</title>
+    <style>
+      body {
+        background-color: darkgray;
+      }
+      h1, h2 {
+        text-align: center;
+        font-family: Arial Black,Arial Bold,Gadget,sans-serif;
+        font-size: 24px;
+        font-variant: normal;
+        font-weight: 500;
+        line-height: 26.4px;
+      }
+      h5 {
+        text-align: center;
+        font-family: Arial Black, Gadget, sans-serif;
+        font-size: 16px;
+      }
+      p {
+        text-align: center;
+        font-family: Arial Black, Gadget, sans-serif;
+        font-size: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Who is WheelsDirty?</h1>
+    <h5><%= link_to 'Home', root_path %> | <%= link_to 'About', about_path %></h5>
+    <center><%= image_tag("about-image.jpg", :alt => "About WheelsDirty") %></center>
+    <p>I am a rallyist, rally photographer, and an all around adrealine junkie learning Ruby on Rails.</p>
+    
+  </body>
+</html>
